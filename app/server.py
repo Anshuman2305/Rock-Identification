@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://ucaa1b484e3eec1db6a2572737fa.dl.dropboxusercontent.com/cd/0/get/BDW8VLDBLa5_K-3tcq6VJw60lfIQgAfYf35i38uNNc-yVRT5yEffSWDic8Oohol22jpQnnFF3JqbSmF4T7dxrXaMT2jXbaQT5U9Odc-utvEsMXmqvukND9nhSnnvCJDCVC4/file?dl=1#'
 export_file_name = 'export.pkl'
 
-classes = ['obsidian', 'granite']
+classes = ['granite', 'obsidian']
 path = Path(__file__).parent
 
 app = Starlette()
