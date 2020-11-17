@@ -1,8 +1,24 @@
 body {
-    background-color: #fff;
+    display: none;
+}
+@media screen and (min-width: 700px){
+body {
+    display: block;
+    background-color: rgb(202, 198, 198);
     height: 100%;
     overflow-x: hidden;
-    background-color: blanchedalmond;
+}
+
+.whitecontain {
+    position: relative;
+    left: 50%;
+    margin-left: -30vw;
+    width: 60vw;
+    height: auto;
+    background-color: rgb(153, 152, 152);
+    border-radius: 1.5vw;
+    border: solid 0.5vw black;
+    padding-top: 2vw;
 }
 
 p {
@@ -101,17 +117,13 @@ button:focus {
 }
 
 h3 {
-    font-size: 2vw;
-    color: white;
+    font-size: 1.5vw;
+    color:black;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    margin-top: 10vw;
+    margin-top: 5vw;
+    margin-left: -1vw;
     padding-top: 10vw;
 }
-footer {
-    position: relative;
-    background-color: black;
-    width: 110vw;
-    margin-left: -6vw;
-    height: 20vw;
+
 }
