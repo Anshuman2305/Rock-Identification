@@ -5,11 +5,12 @@
   <script src='../static/client.js'></script>
 </head>
 <body>
+  <h2>Geology Project</h2>
 <div>
   <div class='center'>
-    <div class='title'>Classify Obsidian and Granite using AI</div>
+    <h1 class='title'>Recognizing <strong>Granite</strong> and <strong>Obsidian</strong> Rock using Deep-Learning</h1>
     <p>
-      Use images of <strong>Obsidian</strong>, <strong>granite</strong>, or both!
+      Upload images of <strong>Granite</strong> rocks, <strong>Obsidian</strong> rocks or both to see whether my model is able to recognize it correctly or not!
       
     </p>
     <div class='content'>
@@ -21,7 +22,7 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Upload Image</button>
       <div class='upload-label'>
         <label id='upload-label'>No file chosen</label>
       </div>
@@ -32,10 +33,11 @@
         <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
       </div>
       <div class='result-label'>
-        <label id='result-label'></label>
+        <label id='result-label'>ghfh</label>
       </div>
     </div>
   </div>
 </div>
+<footer><h3>Made with ❤️ Anshuman Mohanty</h3></footer>
 </body>
 </html>
