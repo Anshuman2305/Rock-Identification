@@ -1,9 +1,6 @@
 
 # About the Project
 
-```diff
-+ This project is created by Anshuman Mohanty
-```
 ### This project is basically a small prototype of rock identification using deep-learning ([fast.ai](https://www.fast.ai) - which is a fast and accurate neural net library for deep learning) which classify granite and obsidian rock just by looking at the uploaded image. This is just a prototype which can be further developed to make it a complete rock identification webapp.
 
 Why I choose Granite and Obsidian?
