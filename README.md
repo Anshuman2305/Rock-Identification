@@ -49,8 +49,8 @@ Idea- We can find out probability of finding out a perticular mine deposit in a 
  
 
 ## c.	Temperature mapping using Histogram of photographs
-Idea- We know that the histogram of a photograph contains the color information of that perticular image which can be processed and used as test data to detect temperature.
- 
+Idea- We know that the histogram of a photograph contains the color information of that perticular image which can be processed and used as test data to detect temperature.\
+![histogram](https://drive.google.com/uc?export=download&id=1CAm4EDSBerK0EtceSXZLXcARQnzMaQny)
 
 With the help of this :\
 ⦁	 We can predict the cooling rate of lava/magma.\
