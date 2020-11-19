@@ -24,12 +24,14 @@ Data is crucial as far as deep learning models are concerned. Our image recogniz
 Hence, the critical data pre-processing step is very important.
 In order to see how our model performs on unseen data, we need to create a validation set. This is done by partitioning the training set data.
 In short, we train the model on the training data and validate it on the validation data. Once we are satisfied with the model's performance on the validation set, we can use it for making predictions on the test data. 
+![train model](https://drive.google.com/uc?export=download&id=1YmN0SG4zRwvHy2ES5XFX9lEQfKXoRRmP)
  
 ⦁	**Stage 2**: Training the model
 For training the model, we require:\
 ⦁	Training images and their corresponding tags\
 ⦁	Validation images and their corresponding tags \
 We also define the number of epochs in this step which is the number of passes of the entire training dataset the machine learning algorithm has completed. More epoch, lesser would be the error rate.
+ ![train model](https://drive.google.com/uc?export=download&id=1VkXS-CNDa0F7OHJOttSXj3jzGue9TbjC)
  
 In the above picture, you can see that i have run 4 cycles (epoch 0-3) and you can clearly figure out that the error rate is keep decreasing after each epoch cycle which is justifying our statement, more epoch produce lesser error rate.
 
