@@ -1,6 +1,6 @@
 # ROCK IDENTIFICATION USING DEEP LEARNING
 ```diff
-- ### Made by - Anshuman Mohanty
+- Made by - Anshuman Mohanty
 ```
 
 
