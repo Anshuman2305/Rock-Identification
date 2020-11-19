@@ -30,13 +30,13 @@ In short, we train the model on the training data and validate it on the validat
 For training the model, we require:\
 ⦁	Training images and their corresponding tags\
 ⦁	Validation images and their corresponding tags \
-We also define the number of epochs in this step which is the number of passes of the entire training dataset the machine learning algorithm has completed. More epoch, lesser would be the error rate.
+We also define the number of epochs in this step which is the number of passes of the entire training dataset the machine learning algorithm has completed. More epoch, lesser would be the error rate. \
  ![train model](https://drive.google.com/uc?export=download&id=1VkXS-CNDa0F7OHJOttSXj3jzGue9TbjC)
  
 In the above picture, you can see that i have run 4 cycles (epoch 0-3) and you can clearly figure out that the error rate is keep decreasing after each epoch cycle which is justifying our statement, more epoch produce lesser error rate.
 
 ⦁	**Stage 3**: Estimating the model's performance
-Finally, we load our test data (in our case images of obsidian and granite) and predict the classes for these images using the trained model.
+Finally, we load our test data (in our case images of obsidian and granite) and predict the classes for these images using the trained model. \
 ![train model](https://drive.google.com/uc?export=download&id=1l7IPdWXee8Jlv0ME8JmGhmYgdwM4iiVb)
 
 # Application of Image Recognization in the field of Geology
