@@ -10,10 +10,10 @@
 ### I used 189 images of granite and 268 images of obsidian out of which 70% of the dataset is used for training and rest are used for validation purpose.
 
 # Software/Library used in the Project
-⦁	Google Colab - to train the model.
-⦁	Visual studio code - to code backend and develop the website.
-⦁	 Fast.ai - helped me to apply deep learning to practical problems quickly and reliably.
-⦁	Render - for deploying my webapp.
+⦁	Google Colab - to train the model.\
+⦁	Visual studio code - to code backend and develop the website.\
+⦁	 Fast.ai - helped me to apply deep learning to practical problems quickly and reliably.\
+⦁	Render - for deploying my webapp.\
 
 # Breaking Down the Process of Model Building
 
