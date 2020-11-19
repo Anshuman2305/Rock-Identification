@@ -1,9 +1,6 @@
-```diff
-- # ROCK IDENTIFICATION USING DEEP LEARNING
-```
+# ROCK IDENTIFICATION USING DEEP LEARNING
+
 # About the Project
-
-
 
 ### This project is basically a small prototype of rock identification using deep-learning ([fast.ai](https://www.fast.ai) - which is a fast and accurate neural net library for deep learning) which classify granite and obsidian rock just by looking at the uploaded image. This is just a prototype which can be further developed to make it a complete rock identification webapp.
 ![block diagram](https://drive.google.com/uc?export=download&id=1mTYrf_aT8bqb-7Yz3TXjSgQ7VWYTxfwM)
