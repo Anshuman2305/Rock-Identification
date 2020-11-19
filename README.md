@@ -15,7 +15,7 @@ Software/Library used in the Project
 ⦁	 Fast.ai - helped me to apply deep learning to practical problems quickly and reliably.
 ⦁	Render - for deploying my webapp.
 
-Breaking Down the Process of Model Building
+# Breaking Down the Process of Model Building
 
 There are four steps involved in model building/training :
 
