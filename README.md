@@ -17,13 +17,13 @@
 
 # Breaking Down the Process of Model Building
 
-There are four steps involved in model building/training :
+## **There are four steps involved in model building/training :**
 
 ⦁	Stage 1: Loading and pre-processing the data
 Data is crucial as far as deep learning models are concerned. Our image recognization model will perform well if we have a good amount of images in the training set. Also, the shape of the data varies according to the architecture/framework that we use.
 Hence, the critical data pre-processing step is very important.
 In order to see how our model performs on unseen data, we need to create a validation set. This is done by partitioning the training set data.
-In short, we train the model on the training data and validate it on the validation data. Once we are satisfied with the model's performance on the validation set, we can use it for making predictions on the test data.
+In short, we train the model on the training data and validate it on the validation data. Once we are satisfied with the model's performance on the validation set, we can use it for making predictions on the test data. 
  
 ⦁	Stage 2: Training the model
 For training the model, we require:
