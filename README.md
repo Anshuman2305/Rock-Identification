@@ -57,7 +57,7 @@ With the help of this :\
 
 
 
-# Conclusion\
+# Conclusion
 I have successfully able to create a webapp which can distinguish between granite and obsidian by processing photo data using deep learning. I came to understand that the application of deep learning is vast touching every field, geology being one of them. 
 While working on this project, i came to know that there is lack of datasets in geology as i did not find suffient images (in deep learning more than 1000 images are required for each category to train our model error free) making my model prone to errors.
 Therefore, all the geology enthusiast should release there findings/images under certain license so that some big development in this field could occur using deep learning.
