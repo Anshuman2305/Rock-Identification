@@ -19,45 +19,45 @@
 
 ## **There are four steps involved in model building/training :**
 
-⦁	Stage 1: Loading and pre-processing the data
+⦁	**Stage 1**: Loading and pre-processing the data
 Data is crucial as far as deep learning models are concerned. Our image recognization model will perform well if we have a good amount of images in the training set. Also, the shape of the data varies according to the architecture/framework that we use.
 Hence, the critical data pre-processing step is very important.
 In order to see how our model performs on unseen data, we need to create a validation set. This is done by partitioning the training set data.
 In short, we train the model on the training data and validate it on the validation data. Once we are satisfied with the model's performance on the validation set, we can use it for making predictions on the test data. 
  
-⦁	Stage 2: Training the model
-For training the model, we require:
-⦁	Training images and their corresponding tags
-⦁	Validation images and their corresponding tags 
+⦁	**Stage 2**: Training the model
+For training the model, we require:\
+⦁	Training images and their corresponding tags\
+⦁	Validation images and their corresponding tags \
 We also define the number of epochs in this step which is the number of passes of the entire training dataset the machine learning algorithm has completed. More epoch, lesser would be the error rate.
  
 In the above picture, you can see that i have run 4 cycles (epoch 0-3) and you can clearly figure out that the error rate is keep decreasing after each epoch cycle which is justifying our statement, more epoch produce lesser error rate.
 
-⦁	Stage 3: Estimating the model's performance
+⦁	**Stage 3**: Estimating the model's performance
 Finally, we load our test data (in our case images of obsidian and granite) and predict the classes for these images using the trained model.
  
 
-Application of Image Recognization in the field of Geology
-a.	Onsite Rock Sample Identification
+# Application of Image Recognization in the field of Geology
+## a.	Onsite Rock Sample Identification
 Idea- We can extend this project to create an android app containing datasets of all the rocks to make rock identification process convinient and at the same time handy.
 
-b.	To explore mine deposits using images from Google Earth ( satellite images )
+## b.	To explore mine deposits using images from Google Earth ( satellite images )
 Idea- We can find out probability of finding out a perticular mine deposit in a specific region by collecting satellite images of that region from Google Earth and using it as a test data.
 
  
 
-c.	Temperature mapping using Histogram of photographs
+## c.	Temperature mapping using Histogram of photographs
 Idea- We know that the histogram of a photograph contains the color information of that perticular image which can be processed and used as test data to detect temperature.
  
 
-With the help of this :
-⦁	 We can predict the cooling rate of lava/magma.
-⦁	We can study about the Thermal expansion of minerals present in the rock.
-⦁	We can study about effect of temperature on rock weathering.
+With the help of this :\
+⦁	 We can predict the cooling rate of lava/magma.\
+⦁	We can study about the Thermal expansion of minerals present in the rock.\
+⦁	We can study about effect of temperature on rock weathering.\
 
 
 
-Conclusion
+# Conclusion\
 I have successfully able to create a webapp which can distinguish between granite and obsidian by processing photo data using deep learning. I came to understand that the application of deep learning is vast touching every field, geology being one of them. 
 While working on this project, i came to know that there is lack of datasets in geology as i did not find suffient images (in deep learning more than 1000 images are required for each category to train our model error free) making my model prone to errors.
 Therefore, all the geology enthusiast should release there findings/images under certain license so that some big development in this field could occur using deep learning.
