@@ -6,10 +6,10 @@
 # Why I choose Granite and Obsidian?
 
 ### In deep learning, we need to train our model by feeding in datasets to make the model accurate and error free. The more data you feed in, lesser would be the chance of error. In this case, dataset refer to images of granite and obsidian that we initially need to feed in using python to teach our model so that it can diffrentiate both the rock.
-Image database of granite and obsidian is quite large which help me to train my model error free. 
-I used 189 images of granite and 268 images of obsidian out of which 70% of the dataset is used for training and rest are used for validation purpose.
+### Image database of granite and obsidian is quite large which help me to train my model error free. 
+### I used 189 images of granite and 268 images of obsidian out of which 70% of the dataset is used for training and rest are used for validation purpose.
 
-Software/Library used in the Project
+# Software/Library used in the Project
 ⦁	Google Colab - to train the model.
 ⦁	Visual studio code - to code backend and develop the website.
 ⦁	 Fast.ai - helped me to apply deep learning to practical problems quickly and reliably.
