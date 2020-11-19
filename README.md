@@ -37,7 +37,7 @@ In the above picture, you can see that i have run 4 cycles (epoch 0-3) and you c
 
 ⦁	**Stage 3**: Estimating the model's performance
 Finally, we load our test data (in our case images of obsidian and granite) and predict the classes for these images using the trained model.
- 
+![train model](https://drive.google.com/uc?export=download&id=1l7IPdWXee8Jlv0ME8JmGhmYgdwM4iiVb)
 
 # Application of Image Recognization in the field of Geology
 ## a.	Onsite Rock Sample Identification
