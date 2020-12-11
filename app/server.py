@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://ucf7845d4440afeaf7126fc9d62a.dl.dropboxusercontent.com/cd/0/get/BDV73b8AlAlqY6OgHunpnq09feAOy4PsftGK0JkyG_kgPezw_8aMiQTzyESV92mskDNkWE-nDFttP4LzndYENiW16mCG3AXiW1dtytaQBO98ArhrwfxXUNs8rhF7OV70Ok4/file?dl=1#'
+export_file_url = 'https://uc1accf0c31179a2dbac06b3475e.dl.dropboxusercontent.com/cd/0/get/BE0JED12Fv-3tZhwnsnVXG2s24xaK4AoslOLWddYY_ZdmePYk7DSaVDKx6qr3wrgmgyAhvaGggJfou81DpghLwsr2qjYgR3gEkVQdkp2lY-Tr7O1Zk8hhDCOtwr0ezqTtzw/file#'
 export_file_name = 'export.pkl'
 
 classes = ['granite', 'obsidian']
