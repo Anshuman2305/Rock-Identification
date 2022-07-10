@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://uc1accf0c31179a2dbac06b3475e.dl.dropboxusercontent.com/cd/0/get/BE0JED12Fv-3tZhwnsnVXG2s24xaK4AoslOLWddYY_ZdmePYk7DSaVDKx6qr3wrgmgyAhvaGggJfou81DpghLwsr2qjYgR3gEkVQdkp2lY-Tr7O1Zk8hhDCOtwr0ezqTtzw/file#'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1gWK-F9IstDnfPjWbdm990rTldUHf6X9u?alt=media&key=AIzaSyBSPyV-5FWAsHwOLGTabFe-M049e5jnCKM'
 export_file_name = 'export.pkl'
 
-classes = ['granite', 'obsidian']
+classes = ['andesite', 'basalt', 'diorite', 'obsidian']
 path = Path(__file__).parent
 
 app = Starlette()
