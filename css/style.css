@@ -13,5 +13,11 @@
 }
 
 .preview {
-    min-width: 25rem;
+    min-width: 70vw;
+}
+
+@media only screen and (min-width: 600px) {
+    .preview {
+        min-width: 25rem;
+    }
 }
