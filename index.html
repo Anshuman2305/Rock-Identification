@@ -13,7 +13,7 @@
 	</head>
 	<body class="flex flex-col h-screen max-w-4xl mx-auto justify-between">
 		<div class="items-center flex flex-col p-5">
-			<h1 class="text-6xl font-bold">Rock Identification</h1>
+			<h1 class="text-5xl font-bold md:text-6xl text-center">Rock Identification</h1>
 			<h2 class="text-2xl">Using CNN and Tensorflow.js</h2>
 		</div>
 		<div class=" flex flex-col  items-center p-5">
@@ -23,11 +23,16 @@
 					artificial neural network used in image recognition and processing that is specifically 
 					designed to process pixel data.</p>
 			</div>
+			<div class="p-5 pb-0">
+				<p class="box1 text-justify p-5 rounded-xl text-gray-800 md:hidden">I have used Convolution Nueral Network (CNN) which is a type of 
+					artificial neural network used in image recognition and processing that is specifically 
+					designed to process pixel data.</p>
+			</div>
 		</div>
 		
 		<div class="items-center flex flex-col p-5">
 
-			<div class="flex">
+			<div class="flex flex-col md:flex-row">
 				<div class="flex p-1 rounded-xl" style="background-color: #1a202c;">
 					<img src="https://geology.com/rocks/pictures/andesite.jpg" id="imagePreview" class="preview rounded-lg w-80 object-cover" style="height: 300px;"/>
 				</div>
@@ -35,12 +40,12 @@
 				
 				<div class="flex flex-col">
 					<div class="p-10 pt-0 pr-0 max-w-md">
-						<p class="box1 text-justify p-5 rounded-xl text-gray-800">I have used Convolution Nueral Network (CNN) which is a type of 
+						<p class="box1 text-justify p-5 rounded-xl text-gray-800 hidden md:inline-flex">I have used Convolution Nueral Network (CNN) which is a type of 
 							artificial neural network used in image recognition and processing that is specifically 
 							designed to process pixel data.</p>
 					</div>
 	
-					<div class="p-10 pt-0 pr-0"> 
+					<div class="flex mx-auto md:p-10 md:pt-0 md:pr-0 md:mx-0"> 
 						<label class="upload_button p-4 rounded-xl mt-5 ease-in duration-150">
 							Select Image
 							<input id="imageUpload" type="file" value="upload" class="hidden" />
