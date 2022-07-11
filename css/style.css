@@ -1,0 +1,17 @@
+.box1 {
+    background-color: #ccdaff;
+}
+
+.upload_button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 3px solid #1a202c;
+}
+.upload_button:hover {
+    background-color: #1a202c;
+    color: white;
+}
+
+.preview {
+    min-width: 25rem;
+}

@@ -1,24 +1,70 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Rock Identification</title>
-
+		<meta charset="UTF-8" />
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+		   href="./css/style.css"
+		   rel="stylesheet"
+		 />
 		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
 	</head>
-	<body class="max-w-4xl mx-auto bg-gray-300">
-		<div class="bg-gray-500 items-center flex flex-col p-5">
-			<h1 class="text-4xl font-bold">Rock Identification</h1>
-			<h2 class="">Using CNN and Tensorflow.js</h2>
+	<body class="flex flex-col h-screen max-w-4xl mx-auto justify-between">
+		<div class="items-center flex flex-col p-5">
+			<h1 class="text-6xl font-bold">Rock Identification</h1>
+			<h2 class="text-2xl">Using CNN and Tensorflow.js</h2>
 		</div>
-		<img src="https://geology.com/rocks/pictures/andesite.jpg" id="imagePreview" class=" rounded-lg" style="height: 250px;" />
-		<label class="text-red-500 bg-black p-4 rounded-xl">
-			Select Image
-			<input id="imageUpload" type="file" value="upload" class="hidden" />
-		</label>
+		<div class=" flex flex-col  items-center p-5">
+			<div class="bg-gray-900 p-5 rounded-2xl">
+				<h3 class="font-bold mb-3 text-white">About the Project</h3>
+				<p class="text-justify text-white">I have used Convolution Nueral Network (CNN) in this project which is a type of 
+					artificial neural network used in image recognition and processing that is specifically 
+					designed to process pixel data.</p>
+			</div>
+		</div>
+		
+		<div class="items-center flex flex-col p-5">
+
+			<div class="flex">
+				<div class="flex p-1 rounded-xl" style="background-color: #1a202c;">
+					<img src="https://geology.com/rocks/pictures/andesite.jpg" id="imagePreview" class="preview rounded-lg w-80 object-cover" style="height: 300px;"/>
+				</div>
+				
+				
+				<div class="flex flex-col">
+					<div class="p-10 pt-0 pr-0 max-w-md">
+						<p class="box1 text-justify p-5 rounded-xl text-gray-800">I have used Convolution Nueral Network (CNN) which is a type of 
+							artificial neural network used in image recognition and processing that is specifically 
+							designed to process pixel data.</p>
+					</div>
+	
+					<div class="p-10 pt-0 pr-0"> 
+						<label class="upload_button p-4 rounded-xl mt-5 ease-in duration-150">
+							Select Image
+							<input id="imageUpload" type="file" value="upload" class="hidden" />
+						</label>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+		<div class="p-5">
+			<div class="flex flex-col mb-5 items-center p-5 border-2 rounded-3xl">
+				<h2 class="font-bold text-xl">Result : <span id="label-container"></span></h2>
+			</div>
+		</div>
 
 		
 
-		<h2>Result : <span id="label-container"></span></h2>
+		<!---footer-->
+		<div class="flex flex-col text-sm items-center p-5">
+			<h1 class="">MADE BY ANSHUMAN MOHANTY</h1>
+		</div>
+		
 		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 		<script type="text/javascript">
