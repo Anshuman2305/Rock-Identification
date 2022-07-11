@@ -1,16 +1,28 @@
 <html>
 	<head>
-		<title>Teachable Machine Image Model with upload</title>
-	</head>
-	<body>
-		<img id="imagePreview" style="height: 300px;" />
-		<input id="imageUpload" type="file" />
+		<title>Rock Identification</title>
 
-		<div>Teachable Machine Image Model with upload</div>
+		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+	</head>
+	<body class="max-w-4xl mx-auto bg-gray-300">
+		<div class="bg-gray-500 items-center flex flex-col p-5">
+			<h1 class="text-4xl font-bold">Rock Identification</h1>
+			<h2 class="">Using CNN and Tensorflow.js</h2>
+		</div>
+		<img src="https://geology.com/rocks/pictures/andesite.jpg" id="imagePreview" class=" rounded-lg" style="height: 250px;" />
+		<label class="text-red-500 bg-black p-4 rounded-xl">
+			Select Image
+			<input id="imageUpload" type="file" value="upload" class="hidden" />
+		</label>
+
+		
+
 		<h2>Result : <span id="label-container"></span></h2>
 		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 		<script type="text/javascript">
+
 			// More API functions here:
 			// https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
