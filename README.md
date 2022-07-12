@@ -1,2 +1,2 @@
 # Rock-Identification
-Rock Identification using Artificial Intelligence
+Rock Identification using CNN and Tensorflow.js
