@@ -14,10 +14,12 @@
 
 .preview {
     min-width: 70vw;
+    max-width: 70vw;
 }
 
 @media only screen and (min-width: 600px) {
     .preview {
         min-width: 25rem;
+        max-width: 25rem;
     }
 }
