@@ -24,9 +24,8 @@
 					designed to process pixel data.</p>
 			</div>
 			<div class="p-5 pb-0">
-				<p class="box1 text-justify p-5 rounded-xl text-gray-800 md:hidden">I have used Convolution Nueral Network (CNN) which is a type of 
-					artificial neural network used in image recognition and processing that is specifically 
-					designed to process pixel data.</p>
+				<p class="box1 text-justify p-5 rounded-xl text-gray-800 md:hidden">Upload image sample from Andesite / Basalt / Diorite / Obsidian
+					to see the Result below. As it is trained on CNN without using any threshold values, it will show wrong result with untrained class samples.</p>
 			</div>
 		</div>
 		
@@ -40,9 +39,9 @@
 				
 				<div class="flex flex-col">
 					<div class="p-10 pt-0 pr-0 max-w-md">
-						<p class="box1 text-justify p-5 rounded-xl text-gray-800 hidden md:inline-flex">I have used Convolution Nueral Network (CNN) which is a type of 
-							artificial neural network used in image recognition and processing that is specifically 
-							designed to process pixel data.</p>
+						<p class="box1 text-justify p-5 rounded-xl text-gray-800 hidden md:inline-flex">Upload image sample from Andesite / Basalt / Diorite / Obsidian
+							to see the Result below. As it is trained on CNN without using any threshold values, it will show wrong result with untrained class samples.
+						</p>
 					</div>
 	
 					<div class="flex mx-auto md:p-10 md:pt-0 md:pr-0 md:mx-0"> 
@@ -115,6 +114,7 @@
                 if (prediction[3].probability.toFixed() == 1) {
 					labelContainer.innerHTML = prediction[3].className;
                 }
+
 
 
 				/*for (let i = 0; i < maxPredictions; i++) {
